@@ -1,5 +1,9 @@
 # Minimal Python Environment
 
+<div style="text-align: center;">
+  <img src="https://raw.githubusercontent.com/S1M0N38/minimal-python-env/main/snake.svg" alt="Snake Logo" style="width: 200px;"/>
+</div>
+
 Managing Python environments can be made simple with the built-in [`venv`](https://docs.python.org/3/library/venv.html) library. While many people use [`virtualenv`](https://virtualenv.pypa.io/en/latest/index.html) or [`conda`](https://docs.conda.io/projects/conda/en/latest/commands/index.html) for this purpose, the built-in `venv` library is more than sufficient for most use cases.
 
 ## Setup Instructions
