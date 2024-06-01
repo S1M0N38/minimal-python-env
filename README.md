@@ -18,11 +18,12 @@ Copy the following lines into your `bashrc` or `zshrc` file to streamline the pr
 pye() {
     python -m venv --upgrade-deps .venv
 
-    read -p "Do you want to install dependencies from requirements.txt? (yes/no) [yes]: " choice
+    echo -n "Do you want to install dependencies from requirements.txt? (yes/no) [yes]: "
+    read choice
     choice=${choice:-yes}
 
     case "$choice" in 
-        yes|Yes|y|Y ) pip install -r requirements.txt;;
+        yes|Yes|y|Y ) .venv/bin/python -m pip install -r requirements.txt;;
         * ) echo "Skipping requirements installation.";;
     esac
 }
