@@ -47,12 +47,7 @@ py() {
 }
 ```
 
-After adding the above lines to your `bashrc` or `zshrc` file, source it by running:
-
-```bash
-source ~/.bashrc  # For bash users
-source ~/.zshrc   # For zsh users
-```
+After adding the above lines to your `bashrc` or `zshrc` file, source it.
 
 ## Usage
 
