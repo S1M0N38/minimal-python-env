@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> I'm using [uv](https://github.com/astral-sh/uv) by [astral.sh](https://astral.sh). I like it.
+
 # Minimal Python Environment
 
 <p align="center">
